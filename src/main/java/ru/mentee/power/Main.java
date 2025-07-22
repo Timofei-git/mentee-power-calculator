@@ -18,7 +18,7 @@ public class Main {
             System.out.println("Деление: 20 / 4 = " + calculator.divide(20, 4));
             System.out.println("Деление: 10 / 3 = " + calculator.divide(10, 3));
             // Раскомментируй для проверки ошибки деления на ноль
-            5 System.out.println("Деление на ноль: " + calculator.divide(5, 0));
+             System.out.println("Деление на ноль: " + calculator.divide(5, 0));
         } catch (ArithmeticException e) {
             System.out.println("Ошибка: " + e.getMessage());
         }
